@@ -1,0 +1,331 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kovarshini03-bit/AI-ML-Internship2026/blob/main/lab%20day2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2qbu2g27xu2u",
+        "outputId": "61b38201-a61a-4f47-91c8-306f7541edd8"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter employee name:V Kanshik Abinav\n",
+            "Enter a age:21\n",
+            "Enter department:accounting\n",
+            "Enter salary:50000\n",
+            "Employee details:\n",
+            "name: V Kanshik Abinav\n",
+            "age: 21\n",
+            "department: accounting\n",
+            "salary: 50000.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "name=(input(\"Enter employee name:\"))\n",
+        "age=int(input(\"Enter a age:\"))\n",
+        "department=(input(\"Enter department:\"))\n",
+        "salary=float(input(\"Enter salary:\"))\n",
+        "print(\"Employee details:\")\n",
+        "print(\"name:\",name)\n",
+        "print(\"age:\",age)\n",
+        "print(\"department:\",department)\n",
+        "print(\"salary:\",salary)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uSiLHZlW08Ww",
+        "outputId": "b6d3327f-2a28-4166-f9ab-d4e2934fb461"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter price of item1:20\n",
+            "enter price of item2:35\n",
+            "enter price of item3:50\n",
+            "enter price of item4:15\n",
+            "enter price of item5:65\n",
+            "total price of all items: 185.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "item1=(float(input(\"enter price of item1:\")))\n",
+        "item2=(float(input(\"enter price of item2:\")))\n",
+        "item3=(float(input(\"enter price of item3:\")))\n",
+        "item4=(float(input(\"enter price of item4:\")))\n",
+        "item5=(float(input(\"enter price of item5:\")))\n",
+        "total=item1+item2+item3+item4+item5\n",
+        "print(\"total price of all items:\",total)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FS8PchIc26d3",
+        "outputId": "7a0e1e48-a7b7-4cfa-a474-e1051fa0fd3a"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter mark of subject 1:87\n",
+            "enter mark of subject 2:84\n",
+            "enter mark of subject 3:73\n",
+            "enter mark of subject 4:95\n",
+            "enter mark of subject 5:74\n",
+            "total marks= 413.0\n",
+            "percentage= 82.6 %\n"
+          ]
+        }
+      ],
+      "source": [
+        "a1=(float(input(\"enter mark of subject 1:\")))\n",
+        "a2=(float(input(\"enter mark of subject 2:\")))\n",
+        "a3=(float(input(\"enter mark of subject 3:\")))\n",
+        "a4=(float(input(\"enter mark of subject 4:\")))\n",
+        "a5=(float(input(\"enter mark of subject 5:\")))\n",
+        "total=a1+a2+a3+a4+a5\n",
+        "Percentage= (total/500)*100\n",
+        "print(\"total marks=\",total)\n",
+        "print(\"percentage=\",Percentage,\"%\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IP82NNPE7oEf",
+        "outputId": "5bd24f06-38f0-4257-b3d2-cd0e19dc68b3"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter temperature in celsius:35\n",
+            "temperature in fahrenheit: 95.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "celsius=float(input(\"enter temperature in celsius:\"))\n",
+        "fahrenheit=(celsius*9/5)+32\n",
+        "print(\"temperature in fahrenheit:\",fahrenheit)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l_ykYzKL8elv",
+        "outputId": "0c98b80d-ecba-4bb3-a594-17f6cd49e77c"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter a recharge amount:345\n",
+            "enter gst percentage:1\n",
+            "gst percentage: 3.45\n",
+            "total amount: 1190.25\n"
+          ]
+        }
+      ],
+      "source": [
+        "recharge=(float(input(\"enter a recharge amount:\")))\n",
+        "GST=(float(input(\"enter gst percentage:\")))\n",
+        "gstpercentage=(recharge*GST)/100\n",
+        "totalamount=recharge*gstpercentage\n",
+        "print(\"gst percentage:\",gstpercentage)\n",
+        "print(\"total amount:\",totalamount)\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Mr5TCWJ7-Xbz",
+        "outputId": "66e0d5b3-2230-43da-b942-d966d05b77f7"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter balance amount:10000\n",
+            "enter withdrawal amount:11000\n",
+            "insufficent amount\n"
+          ]
+        }
+      ],
+      "source": [
+        "balance=(float(input(\"enter balance amount:\")))\n",
+        "withdrawal=(float(input(\"enter withdrawal amount:\")))\n",
+        "if withdrawal <= balance:\n",
+        "  print(\"balance amount\")\n",
+        "else:\n",
+        "  print(\"insufficent amount\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FVQM5E-H_2AD",
+        "outputId": "03867719-d46e-4f43-cafa-1e68c998bf28"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter age:19\n",
+            "eligible for voting\n"
+          ]
+        }
+      ],
+      "source": [
+        "age=int(input(\"enter age:\"))\n",
+        "if age>=18:\n",
+        "  print(\"eligible for voting\")\n",
+        "else:\n",
+        "  print(\"not eligible for voting\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "myVfCbSDAhJO",
+        "outputId": "1c8ba8a4-a226-4b0a-80b1-905db303917a"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter username:admin\n",
+            "enter password:rookie\n",
+            "invalid username or password\n"
+          ]
+        }
+      ],
+      "source": [
+        "username=(input(\"enter username:\"))\n",
+        "password=(input(\"enter password:\"))\n",
+        "if username==\"admin\" and password==\"kookie\":\n",
+        "  print(\"login successful\")\n",
+        "else:\n",
+        "  print(\"invalid username or password\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "lPFEONA9DGo1"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "background_save": true,
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QrkFHmFsDIaB",
+        "outputId": "6cbb2d68-e2ef-4c00-9117-89e49b0b6fe4"
+      },
+      "outputs": [
+        {
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2810/3756916904.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mbill\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"enter a electricity unit:\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0;36m0\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m100\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"₹2 per unit\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32melif\u001b[0m \u001b[0;36m101\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m300\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"₹4 per unit\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ],
+      "source": [
+        "bill=(float(input(\"enter a electricity unit:\")))\n",
+        "if 0<= unit <=100:\n",
+        "  print(\"₹2 per unit\")\n",
+        "elif 101<= unit <=300:\n",
+        "  print(\"₹4 per unit\")\n",
+        "else:\n",
+        "  print(\"₹6 per unit\")"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNyNwRN5+R68DJnqF1G2wdf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
